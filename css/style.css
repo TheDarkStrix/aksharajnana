@@ -1037,15 +1037,18 @@ nav.main-menu {
   display: inline-block !important;
   background: #0f052f;
   margin: 0 !important;
-  padding: 30px 36px 30px 16px;
+  padding: 30px 36px 32px 16px;
   float: right;
   margin-right: 110px !important;
   width: 24%;
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
 }
 
 .mean-last a {
   padding: 0px 20px;
-  color: #fff;
+  color: white;
   font-size: 16px;
 }
 
@@ -1544,7 +1547,7 @@ nav.main-menu {
 }
 .contact .contact_bg {
   max-width: 541px;
-
+  margin: 0 auto;
   padding: 0;
   padding: 60px 0px;
 }
