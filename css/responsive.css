@@ -130,7 +130,6 @@
     background: transparent;
   }
   .logo {
-    padding-bottom: 6px;
     margin-top: 0px;
   }
   .text-bg h1 {
@@ -152,9 +151,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .mean-last {
     display: none !important;
-  }
-  .logo {
-    padding-bottom: 6px;
   }
   .main-menu ul > li a {
     padding: 11px 5px;
@@ -181,9 +177,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .logo {
-    padding-bottom: 6px;
-  }
   .mean-last {
     display: none !important;
   }
@@ -268,7 +261,7 @@
     margin-top: 25px;
   }
   .slider_section {
-    padding-top: 105px;
+    padding-top: 170px;
   }
 
   .menu-area {
@@ -355,8 +348,10 @@
     text-align: center !important;
     width: 150px;
     margin: 0 auto;
-    padding-bottom: 20px;
     float: inherit;
+  }
+  .logo-text {
+    padding-bottom: 12px;
   }
 
   .menu-area-main li.active a {
