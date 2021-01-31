@@ -1777,4 +1777,45 @@ ul.loca li a {
   color: #f4b328;
 }
 /** end footer **/
+
+/* admission process */
+.ad-process {
+  padding-top: 60px;
+}
+.card-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ad-step {
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+  font-weight: 700;
+}
+.ad-step-num {
+  color: rgb(66, 66, 66);
+  font-size: 34px;
+  font-weight: 700;
+}
+.ad-process-card {
+  background: #f1ae1e;
+  display: table;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-bottom: 28px;
+  color: black;
+  font-size: 16px;
+}
+.ad-card-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(66, 66, 66);
+}
+.ad-content {
+  font-size: 14px;
+  line-height: normal;
+  text-align: justify;
+}
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
