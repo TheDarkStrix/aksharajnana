@@ -1491,12 +1491,25 @@ nav.main-menu {
   color: #200769;
   font-weight: bold;
 }
+
+.logo-slider {
+  padding: 60px 0;
+}
+
 .titlepage h2 {
   padding: 0;
   font-weight: bold;
   color: #f4b328;
   line-height: 55px;
   font-size: 50px;
+}
+
+.titlepage h3 {
+  padding: 0;
+  font-weight: bold;
+  color: #f4b328;
+  line-height: 55px;
+  font-size: 30px;
 }
 
 /** contact section **/
@@ -1590,6 +1603,9 @@ nav.main-menu {
   background: #0f0824;
 
   margin-top: 125px;
+}
+.footerp {
+  padding-top: 60px;
 }
 .footer h2 {
   color: #fff;
