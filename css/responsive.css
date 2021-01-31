@@ -282,6 +282,16 @@
   }
 }
 
+@media (max-width: 576px) {
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .bar {
+    text-align: center;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   .logo {
     margin-top: 0px;
@@ -406,7 +416,7 @@
     padding-left: 15px;
   }
   .slider_section {
-    padding-top: 95px;
+    padding-top: 130px;
   }
   .about .about-box h2 {
     line-height: 36px;
@@ -445,5 +455,27 @@
   }
   .copyright {
     margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .top-bar {
+    display: block;
+    display: flex;
+    padding: 10px 25px 0px 25px;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .top-bar .bar a {
+    color: black;
+    padding-left: 0.6em;
+    font-weight: 600;
+  }
+  .top-bar .bar {
+    padding-bottom: 0.5em;
+  }
+  .top-bar .bar a img {
+    filter: invert(1);
   }
 }
