@@ -300,6 +300,22 @@
     background: white;
     padding: 20px 0px 20px 0px;
   }
+  .box_bg {
+    background: white;
+    padding: 10px 0px 30px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .box_text {
+    max-width: 100%;
+    width: 100%;
+    padding: 25px 15px 2px 15px;
+  }
+  .box_text .titlepage {
+    padding-bottom: 20px;
+    text-align: center;
+  }
   .mean-last {
     display: none !important;
   }
@@ -313,7 +329,7 @@
     padding: 0px 13px;
   }
   .images_box {
-    margin-top: 30px;
+    display: none;
   }
   .padding_left0 {
     padding-left: 15px;
@@ -460,6 +476,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .images_box {
+    display: none;
+  }
   .top-bar {
     display: block;
     display: flex;
