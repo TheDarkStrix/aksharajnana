@@ -127,6 +127,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.bold {
+  font-weight: 600;
+}
 :focus {
   outline: 0;
 }
@@ -1253,7 +1256,7 @@ nav.main-menu {
   text-align: center;
 }
 .about .about-box figure img {
-  width: 250px;
+  width: 320px;
 }
 /** end about section **/
 

@@ -429,6 +429,7 @@
   .titlepage h2 {
     line-height: 36px;
     font-size: 27px;
+    text-align: center;
   }
   .padding_left0 {
     padding-left: 15px;
@@ -477,5 +478,14 @@
   }
   .top-bar .bar a img {
     filter: invert(1);
+  }
+  .box_bg {
+    background: white;
+    padding: 10px 0px 30px 0px;
+    display: inline-block;
+    width: 100%;
+  }
+  .padding_left3 {
+    padding-left: 15px;
   }
 }
