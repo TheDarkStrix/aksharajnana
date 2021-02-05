@@ -1,0 +1,82 @@
+.cimage {
+  width: 50px;
+}
+
+.cname {
+  font-weight: 700;
+}
+
+.cdetails {
+  font-size: 14px;
+  line-height: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.ccontainer {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  min-height: 120px;
+  max-height: 120px;
+  height: 120px;
+  padding: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.shuffle-filter {
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 9;
+}
+
+.shuffle-filter li {
+  display: inline-block;
+  background-color: #240e6f;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.slider_section {
+  padding-top: 40px !important;
+}
+
+.shuffle-container {
+  padding-top: 110px;
+}
+
+@media screen and (max-width: 767px) {
+  .slider_section {
+    padding-top: 60px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .slider_section {
+    padding-top: 128px !important;
+  }
+  .shuffle-filter {
+    padding: 10px 15px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 9;
+    margin-left: -15px;
+    text-align: center;
+  }
+  .shuffle-filter li {
+    display: inline-block;
+    background-color: #240e6f;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+}
