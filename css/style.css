@@ -1654,14 +1654,16 @@ nav.main-menu {
   font-weight: 500;
   padding-bottom: 20px;
 }
-.footer .address a img {
-  border-radius: 50%;
-}
+
 .location_section {
   background-color: #fff;
   margin-bottom: 40px;
   border-radius: 10px;
   padding: 20px 35px;
+}
+
+.logo-circle {
+  border-radius: 50%;
 }
 .news {
   padding-bottom: 50px;
