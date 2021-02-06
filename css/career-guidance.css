@@ -1,0 +1,34 @@
+.career-guidance-parent {
+  margin-top: 100px;
+}
+
+.career-guidance-parent h1 {
+  font-weight: 700;
+  margin: 1em 0;
+  font-size: 1.8em;
+}
+
+.career-guidance h2 {
+  padding: 20px 0 20px 0;
+  color: black;
+}
+
+.career-guidance ul {
+  margin-left: 24px;
+}
+
+.career-guidance ul li {
+  list-style: disc !important;
+}
+
+@media screen and (max-width: 767px) {
+  .career-guidance-parent {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .career-guidance-parent {
+    margin-top: 200px;
+  }
+}
