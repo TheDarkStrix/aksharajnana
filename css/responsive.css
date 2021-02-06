@@ -508,13 +508,3 @@
     padding-left: 15px;
   }
 }
-
-@media screen and (max-width: 360px) {
-  .top-bar .bar {
-    font-size: 10px;
-  }
-  .top-bar .bar a img {
-    filter: invert(1);
-    width: 20px;
-  }
-}

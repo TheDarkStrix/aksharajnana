@@ -80,14 +80,3 @@
     cursor: pointer;
   }
 }
-@media screen and (max-width: 360px) {
-  .shuffle-filter li {
-    display: inline-block;
-    background-color: #240e6f;
-    color: white;
-    padding: 5px 10px;
-    margin: 20px 0px;
-    font-size: 10px;
-    cursor: pointer;
-  }
-}
