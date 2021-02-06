@@ -1,0 +1,78 @@
+.courses {
+  margin-top: 100px;
+  padding-bottom: 38px;
+}
+
+.courses h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.courses div {
+  font-size: 1.2em;
+}
+
+.coursecard {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  padding: 16px 10px;
+  overflow: hidden;
+  line-height: normal;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+
+.coursecard:hover {
+  transform: scale(1.03);
+}
+
+.cheading {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.clist {
+  padding: 10px 0px;
+}
+
+.clist ul {
+  margin-left: 24px;
+}
+
+.clist ul li {
+  list-style: disc !important;
+}
+
+.knowmoreContainer {
+  display: block;
+  justify-content: center;
+  margin-top: auto;
+  text-align: center;
+}
+
+.knowmore {
+  background: #200769;
+  border-radius: 99999px;
+  color: white;
+  display: initial;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .courses {
+    margin-top: 100px;
+    padding-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .courses {
+    margin-top: 200px;
+    padding-bottom: 38px;
+  }
+}
