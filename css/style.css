@@ -1392,6 +1392,7 @@ nav.main-menu {
   position: absolute;
   bottom: 0;
   background: #200769;
+  width: 100%;
 }
 .box_bg_img .box_my:hover .overlay {
   background: #200769bd;
