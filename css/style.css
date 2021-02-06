@@ -194,6 +194,16 @@ button {
   margin: 0;
   padding: 0;
 }
+option[value=""][disabled] {
+  display: none;
+}
+.send:disabled,
+.send[disabled] {
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666;
+  cursor: not-allowed;
+}
 /**-- heading section --**/
 .main_heading {
   text-align: center;
@@ -583,12 +593,14 @@ nav.main-menu {
   background: #38c8a8;
   border-radius: 0;
 }
-#login-modal .modal-content .modal-body .form-group input {
+#login-modal .modal-content .modal-body .form-group input,
+.form-group select {
   background: #ffffff;
   border: 1px solid #c8c8c8;
   border-radius: 0px;
 }
-#login-modal .modal-content .modal-body .form-group input:focus {
+#login-modal .modal-content .modal-body .form-group input:focus,
+.form-group select:focus {
   border: 1px solid #c8c8c8 !important;
 }
 #login-modal .modal-content form {
@@ -1605,6 +1617,11 @@ nav.main-menu {
   color: #fff;
   transition: all 0.3s ease-in;
   border-radius: 50px;
+}
+.select {
+  padding: 0 19px !important;
+  background: white;
+  color: unset !important;
 }
 /** end contact section **/
 
