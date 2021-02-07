@@ -983,7 +983,10 @@ nav.main-menu {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-  margin: 22px 0px;
+  padding: 24px 0px;
+}
+.extra li {
+  padding: 0px !important;
 }
 .main-menu ul > li:nth-child(6) {
   padding-right: 0px;
@@ -1852,4 +1855,24 @@ ul.loca li a {
 .top-bar {
   display: none;
 }
+.mean-container .mean-nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+  height: 100%;
+}
+.mean-container .mean-nav ul li li a {
+  width: 100%;
+  padding: 1em 5%;
+  border-top: 0px;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  height: 46px;
+  width: 46px;
+}
+.extra li a {
+  color: black !important;
+}
+
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
