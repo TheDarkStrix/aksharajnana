@@ -1869,9 +1869,15 @@ ul.loca li a {
 }
 .mean-container .mean-nav ul li a.mean-expand {
   height: 46px;
-  width: 46px;
+  width: 46px !important;
 }
 .extra li a {
+  color: black !important;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover,
+.mean-container .mean-nav ul li a.mean-expand:focus {
+  background: white !important;
   color: black !important;
 }
 
