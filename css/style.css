@@ -1881,4 +1881,9 @@ ul.loca li a {
   color: black !important;
 }
 
+.testimonial-slide {
+  top: 60px !important;
+  right: calc(0px - 35px) !important;
+}
+
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
